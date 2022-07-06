@@ -1,0 +1,46 @@
+.calcContainer {
+  max-width: 300px;
+  margin: 80px auto;
+  border: 1.5px solid black;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.symbols {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 20px;
+
+  button {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+}
+
+.totalNumber {
+  text-align: center;
+  padding: 20px;
+  padding-top: 0px;
+  font-size: 20px;
+}
+
+.calcNumbersContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1px;
+
+  button {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-size: 16px;
+  }
+}
